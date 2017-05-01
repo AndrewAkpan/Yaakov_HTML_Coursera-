@@ -1,1 +1,21 @@
-
+html
+{
+font-family: Tahoma, Geneva, sans-serif;
+}
+Head
+{
+font-size:175%;
+}
+h1
+{
+font-size:125%;
+}
+.row
+{
+margin-bottom:15px;
+}
+.row>div
+{
+border: 5px solid black;
+background-color: #363636;
+}
