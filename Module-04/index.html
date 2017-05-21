@@ -6,13 +6,67 @@
   <script src="SpeakHello.js"></script>
   <script src="SpeakGoodBye.js"></script>
   <script src="script.js"> document.write(script());  </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
-  <h1 style="text-decoration: underline; text-align: center;">Module 4 Solution</h1>
-  <h2 style="text-align: center;">Inspect console for results</h2>
-  <p id="print">
+<style>
+@keyframes panning {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 100%;
+  }
+   50% {
+    background-position: 100% 0%;
+  }
+  75% {
+    background-position: 0 100%;
+  }
+  200% {
+    background-position: 0 0;
+  }
+}
 
+.adjust 
+{
+  margin-top: 200px;
+}
+h1
+{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+h2
+{
+	margin-top: 10px;
+	font-weight: 100;
+	letter-spacing: 5px
+}
+
+
+
+
+
+
+html, body {
+  font-family: Roboto;
+  text-align: center;
+  color:white;
+  position: relative;
+  background: black url("GfIWZR0.jpg");
+  animation: panning 200s infinite linear;
+
+}
+</style>
+<body>
+	<div class="adjust">
+	  <div class="overlay"></div>
+	  <h1 > Module 4 Solution</h1>
+      <h2>Inspect console for results</h2>
+  <p id="print">
   </p>
+  </div>
   
 </body>
 </html>
